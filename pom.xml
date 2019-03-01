@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
     <organization>
         <name>Pivotal Software, Inc.</name>
-        <url>http://www.spring.io</url>
+        <url>https://www.spring.io</url>
     </organization>
 
     <properties>
@@ -96,7 +96,7 @@
                     <excludes>
                         <exclude>**/Abstract*.java</exclude>
                     </excludes>
-                    <!-- see http://stackoverflow.com/questions/18107375/getting-skipping-jacoco-execution-due-to-missing-execution-data-file-upon-exec -->
+                    <!-- see https://stackoverflow.com/questions/18107375/getting-skipping-jacoco-execution-due-to-missing-execution-data-file-upon-exec -->
                     <argLine>${argLine}</argLine>
                 </configuration>
             </plugin>
@@ -214,7 +214,7 @@
                 <repository>
                     <id>spring-snapshots</id>
                     <name>Spring Snapshots</name>
-                    <url>http://repo.spring.io/libs-snapshot</url>
+                    <url>https://repo.spring.io/libs-snapshot</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
@@ -222,7 +222,7 @@
                 <repository>
                     <id>spring-milestones</id>
                     <name>Spring Milestones</name>
-                    <url>http://repo.spring.io/libs-milestone-local</url>
+                    <url>https://repo.spring.io/libs-milestone-local</url>
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
@@ -230,7 +230,7 @@
                 <repository>
                     <id>spring-releases</id>
                     <name>Spring Releases</name>
-                    <url>http://repo.spring.io/release</url>
+                    <url>https://repo.spring.io/release</url>
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
@@ -240,7 +240,7 @@
                 <pluginRepository>
                     <id>spring-snapshots</id>
                     <name>Spring Snapshots</name>
-                    <url>http://repo.spring.io/libs-snapshot-local</url>
+                    <url>https://repo.spring.io/libs-snapshot-local</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
@@ -248,7 +248,7 @@
                 <pluginRepository>
                     <id>spring-milestones</id>
                     <name>Spring Milestones</name>
-                    <url>http://repo.spring.io/libs-milestone-local</url>
+                    <url>https://repo.spring.io/libs-milestone-local</url>
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
